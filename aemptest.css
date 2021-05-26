@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Resamitz;
+    src: url(/fonts/resamitz.otf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/fonts/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url("/bg12.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+#maps-cont {
+    max-width: 100%;
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #444444;
+    background-color: rgba(256, 256, 256, .85);
+    border-radius: 15px;
+}
+
+#maps-cont > div {
+    margin: 10px;
+}
+
+div#header {
+    margin: 20px 10px;
+}
+
+h2 {
+    font-family: Resamitz;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 7px;
+}
+
+.subtitle {
+    font-family: Raleway;
+    font-size: 1.8rem;
+}
+
+#intro {
+    max-width: 60%;
+}
+
+#biblio .title {
+    font-size: 1.5rem;
+}
+
+#biblio .textcontent {
+    font-size: .8rem;
+    text-align: left;
+    height: auto;
+    max-width: 70%;
+}
+
+#gentrif {
+    max-width: 60%;
+    margin: 5px 10px;
+}
+
+#gentrif .textcontent {
+    height: auto;
+}
+
+.infocont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.infocont > div {
+    margin: 5px 0px;
+}
+
+.title {
+    font-family: Resamitz;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.textcontent {
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 1.1rem;
+    height: 300px;
+    overflow: auto;
+    flex-grow: 1;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 5px;
+}
+
+#intro .textcontent {
+    height: auto;
+    max-height: 300px;
+}
+
+#intro .title {
+    font-family: Resamitz;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.horflex {
+    padding: 5px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.mapcont {
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 550px;
+    max-width: 75%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Resamitz;
+}
+
+.infogramcont {
+    flex-shrink: 0;
+    flex-grow: 1;
+    min-width: 350px;
+    max-width: 30%;
+    min-height: 500px;
+    padding: 10px 5px 5px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+a {
+    transition: color .3s ease;
+    color: #0090ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bbff;
+}
+
+a:active {
+    color: #55ffff;
+}
+
+::-webkit-scrollbar {
+    cursor: pointer;
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
+
+#map-redline {
+    width: 800px;
+    height: auto;
+}
+
+#map-redlinerace {
+    width: 900px;
+    min-height: 500px;
+    height: 70vh;
+}
+
+#map-redlineforeclosure {
+    width: 900px;
+    min-height: 600px;
+    height: 90vh;
+}
+
+.footer {
+    max-width: 100%;
+    overflow: auto;
+    background-color: rgba(256, 256, 256, .85);
+    color: black;
+    text-align: left;
+    margin: 0px;
+    bottom: 0;
+    font-family: Resamitz;
+}
+
+.footer p {
+    padding: 10px;
+    margin: 0px;
+}
+
+#titleheader {
+    width: 100%;
+    background-color: rgba(256, 256, 256, .85);
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: black;
+    background: black;
+    padding: 0;
+    height: 0;
+    border-top: medium solid black;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+    width: 70%;
+}
+
+hr:after {
+    font-family: "Times New Roman", serif;
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5rem;
+    padding: 0 0.25em;
+    background: transparent;
+    color: black;
+}
